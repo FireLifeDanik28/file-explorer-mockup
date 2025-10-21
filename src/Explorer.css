@@ -1,20 +1,41 @@
-#file {
+.file {
+    margin: auto;
     height: auto;
-    width: 50vw;
-    justify-content: center;
+    width: 30vw;
+    justify-content: left;
     align-content: left;
-    background-color: cyan;
+    background-color: rgb(163, 177, 255);
     color: black;
 }
-#folder {
+
+.folder {
+    margin: auto;
     height: auto;
-    width: 50vw;
-    margin-left: 2vw;
-    justify-content: center;
-    align-content: center;
+    width: 30vw;
+    justify-content: left;
+    align-content: left;
     background-color: mediumblue;
+    color: white;
 }
+
+table {
+    width: 50vw;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid rgb(221, 220, 220);
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
 body {
-    background-color:darkblue;
+    background-color: rgb(11, 11, 56);
     color: white;
 }

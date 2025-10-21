@@ -1,11 +1,14 @@
 import './Explorer.css'
 
-function FileItem({ file }) {
+function FileItem({ file, depth }) {
     return (
-        <>
-            <div id="file"><p>{file.name}, {file.type}</p></div>
-        </>
+        <tr className="file">
+            <td>📄</td>
+            <td style={{ paddingLeft: `${depth * 25}px` }}>{file.name}</td>
+            <td>{file.type}</td>
+            <td>{file.size}</td>
+        </tr>
     )
 }
 
-export default FileItem
+export default FileItem;

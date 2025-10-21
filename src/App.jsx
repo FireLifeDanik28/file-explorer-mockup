@@ -47,7 +47,15 @@ function App() {
   return (
     <>
       <h1>Mockup file explorer</h1> 
-      <FileExplorer fileSystem={data} />
+        <table>
+            <tr>
+              <th>Icon</th>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Size</th>
+            </tr>
+            <FileExplorer fileSystem={data} />            
+        </table>
     </>
   )
 }

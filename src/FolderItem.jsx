@@ -1,13 +1,15 @@
 import './Explorer.css'
 
-function FolderItem({ folder, display }) {
+function FolderItem({ folder, display, depth }) {
     return (
         <>
-            <div id="folder"><p>{folder.name}, {folder.type}</p>
-            {folder.children.map(
-                (y) => display(y)
-            )}
-            </div>
+            <tr className="folder">
+                <td>📂</td>
+                <td style={{ paddingLeft: `${depth * 25}px` }}>{folder.name}</td>
+                <td>{folder.type}</td>
+                <td></td>
+            </tr>
+            {folder.children.map((y) => display(y, depth))}
         </>
     )
 }
