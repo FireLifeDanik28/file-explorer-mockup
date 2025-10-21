@@ -48,7 +48,7 @@ function App() {
     <>
       <h1>Mockup file explorer</h1> 
         <table>
-            <tr>
+            <tr id="beer">
               <th>Icon</th>
               <th>Name</th>
               <th>Type</th>
