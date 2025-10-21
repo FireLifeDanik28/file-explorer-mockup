@@ -1,12 +1,20 @@
 #file {
-    width: 200px;
-    justify-content: left;
+    height: auto;
+    width: 50vw;
+    justify-content: center;
     align-content: left;
-    margin-left: 60px;
+    background-color: cyan;
+    color: black;
 }
 #folder {
-    width: 250px;
-    justify-content: left;
-    align-content: left;
-    margin-left: 60px;
+    height: auto;
+    width: 50vw;
+    margin-left: 2vw;
+    justify-content: center;
+    align-content: center;
+    background-color: mediumblue;
+}
+body {
+    background-color:darkblue;
+    color: white;
 }
