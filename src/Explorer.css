@@ -1,0 +1,12 @@
+#file {
+    width: 200px;
+    justify-content: left;
+    align-content: left;
+    margin-left: 60px;
+}
+#folder {
+    width: 250px;
+    justify-content: left;
+    align-content: left;
+    margin-left: 60px;
+}
